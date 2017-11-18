@@ -1,0 +1,50 @@
+.background    { background-image: url("https://wallpapercave.com/wp/kaezLBs.jpg");
+                 background-size: 2500px 1600px;
+                 background-repeat: no-repeat;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(84, 121, 222); }
+.wall          { background: rgb(49, 132, 36);   }
+
+.actor  { position: absolute;  }
+.coin   { background: url("https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Flowers-PNG/Exotic_Pink_Flower_PNG_Clipart_Picture.png?m=1438793573"); 
+          background-size: 24px 24px;
+          }
+.player { background-image: url("http://www.thematador.us/wp-content/uploads/2017/08/garden-floor-tile-stone-texture-dark-sketchup-wall-textures-to-inspire-pinterest-gardens-and-tagsblack-effect-laminate-flooring--black-oak.jpg");
+          background-size: 50px 50px;
+          }
+.spider {
+	     background: url("http://www.freepngimg.com/thumb/spider/1-spider-png-image-thumb.png");
+	     background-size: 30px 30px;
+}
+
+
+.sloth {
+	background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/fa841a18104623.562c3ee17b355.png");
+	background-size: 78px 62px;
+}
+.ape {
+	background: url("http://www.freepngimg.com/download/monkey/2-2-monkey-transparent.png");
+	background-size: 59px 60px;
+}
+.tiger{
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/f6/59/7e/f6597e5c782991ff0fc518a0cf532f63.png");
+	background-size: 60px 60px;
+}
+
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
